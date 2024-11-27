@@ -1,0 +1,79 @@
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(213, 213, 213);
+}
+
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 15px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.logo-icon {
+  width: 10px;
+  height: 20px;
+}
+
+.insta {
+  font-weight: bold;
+  color: #333;
+}
+
+.menu {
+  display: flex;
+  gap: 30px;
+}
+
+.menu-item {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.login {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-weight: bold;
+}
+
+.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+}
+
+.phone-icon {
+  filter: brightness(0) invert(1);
+  width: 100%;
+  height: 100%;
+}
+
+.get-started {
+  text-decoration: none;
+  background-color: #000;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 25px;
+  font-weight: 500;
+}
